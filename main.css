@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: rgb(189, 154, 223);
     max-width: 1280px;
     margin: auto;
 }
@@ -52,7 +52,7 @@ article figure>img {
 #map {
     width: 90%;
     height: 600px;
-    border: 1px solid silver;
+    border: 1px solid grey;
     margin: auto;
 }
 
