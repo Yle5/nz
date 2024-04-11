@@ -14,8 +14,8 @@ marker.bindPopup(`
   
    <b>Lake Tekapo</b>
    <ul> 
-     <li>Breite:${lat}</li>
-     <li>Länge:${lng}</li>
+     <li>Breite:${lat.toFixed(5)}</li>
+     <li>Länge:${lng.toFixed(5)}</li>
    </ul>
 
    `).openPopup();
