@@ -14,7 +14,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let marker = L.marker([lat, lng]).addTo(map);
 marker.bindPopup(`
-  
+
    <b>Lake Tekapo</b>
    <ul> 
      <li>Breite:${lat.toFixed(5)}</li>
@@ -22,3 +22,7 @@ marker.bindPopup(`
    </ul>
 
    `).openPopup();
+
+   L.control.scale({
+    imperial: false
+   }).addTo(map);
